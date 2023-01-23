@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal Solution</title>
+    <!-- OUTPUT CSS FILE -->
+    <link rel="stylesheet" href="./public/dist/output.css">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- FLOWBITE CSS CDN -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.2/flowbite.min.css"  rel="stylesheet" />
+
+</head>
+<body class="bg-white text-dark-2 font-poppins">
+    
+    <!-- HEADER START -->
+    <header class="">
+        <!-- NAV START -->
+        <nav class="py-10 px-2 max-w-6xl mx-auto relative ">
+            <!-- NAV CONTENT -->
+            <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-5">
+                <!-- BRAND LOGO -->
+                <a href="#">
+                    <img src="./public/images/logo2.png" alt="Brand Logo">
+                </a>
+                
+                <!-- CHECKBOX FOR NAV TOGGOLING -->
+                <input class="peer hidden" type="checkbox" name="" id="checkbox">
+
+                <!-- MENU TOGGLE BAR  -->
+                <label for="checkbox" class="md:hidden">
+                    <div class="absolute top-12 right-2 pt-1 cursor-pointer">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                        </svg>                      
+                    </div>
+                </label>
+
+                <!-- NAVLIST -->
+                <div class="hidden md:block peer-checked:block">
+                    <ul class="flex flex-col md:flex-row gap-5">
+                        <li><a href="#" class="text-dark-3 hover:text-dark-2 transition-all">Home</a></li>
+                        <li><a href="#" class="text-dark-3 hover:text-dark-2 transition-all">Services</a></li>
+                        <li><a href="#" class="text-dark-3 hover:text-dark-2 transition-all">Cases</a></li>
+                        <li><a href="#" class="text-dark-3 hover:text-dark-2 transition-all">Blog</a></li>
+                        <li><a href="#" class="text-dark-3 hover:text-dark-2 transition-all">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- MODAL BUTTON -->
+                <button class="hidden md:block peer-checked:block px-6 py-3 rounded-lg bg-brown text-white font-semibold">
+                    Free Consultation
+                </button>
+
+                
+            </div>
+        </nav>
+        <!-- NAV END -->
+
+        <!-- HERO BANNER START -->
+        <section class="pb-10 px-2 max-w-6xl mx-auto">
+            <!-- HERO CONTENT -->
+            <figure class="hero-banner min-h-fit bg-no-repeat bg-cover bg-center rounded-xl  p-5">
+                <div class="flex flex-col items-center justify-center gap-5 md:gap-8 py-20 md:py-28">
+
+                <h1 class="text-5xl md:text-6xl font-garamond font-extrabold text-white max-w-2xl text-center">We Provide Effective Legal Solutions</h1>
+                <p class="text-dark-6 text-center max-w-2xl">There are many variations of passages of available, but the majority have suffered alteration in some form, by injected humour.</p>
+
+                <form class="flex flex-col md:flex-row items-center justify-center gap-5">
+                    <input type="text" class="py-3 px-6 max-w-lg w-full text-dark-4 bg-white focus:outline-none focus:ring-0 border-none rounded-lg"
+                    placeholder="Search your services">
+                    <button class="w-full md:w-auto px-6 py-3 rounded-lg bg-brown text-white font-semibold">
+                        Search
+                    </button>
+                </form>
+            </div>
+            </figure>
+        </section>
+        <!-- HERO BANNER END -->
+    </header>
+    <!-- HEADER END -->
+
+    <!-- MAIN START -->
+    <main class="max-w-6xl mx-auto">
+
+        <!-- LOW SECTION START -->
+        <section class="px-2 py-20 grid gap-16">
+            <!-- LOW TEXT CONTENT -->
+            <figure class="grid gap-5">
+                <h2 class="text-3xl md:text-4xl text-dark-2 font-extrabold font-garamond text-center">The Legal Practice Area</h2>
+                <p class="text-dark-3 text-center max-w-2xl mx-auto">There are many variations of passages of available, but the majority have suffered alteration in some form, by injected humour.</p>
+            </figure>
+
+            <!-- LOW CARDS CONTENT -->
+            <figure class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
+                <!-- card one -->
+                <div class="p-5 flex flex-col items-center justify-center gap-8">
+                    <img src="./public/images/business.png" alt="">
+                    <h4 class="text-xl md:text-2xl font-extrabold font-garamond">Business Law</h4>
+                    <p class="text-dark-3 text-center">There are many variations of passages of available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    <img src="./public/images/Frame.png" alt="">
+                </div>
+                <!-- card two -->
+                <div class="p-5 flex flex-col items-center justify-center gap-8 card-gradient border border-dark-6">
+                    <img src="./public/images/criminal.png" alt="">
+                    <h4 class="text-xl md:text-2xl font-extrabold font-garamond">Criminal Law</h4>
+                    <p class="text-dark-3 text-center">There are many variations of passages of available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    <img src="./public/images/Frame.png" alt="">
+                </div>
+                <!-- card three -->
+                <div class="p-5 flex flex-col items-center justify-center gap-8">
+                    <img src="./public/images/child.png" alt="">
+                    <h4 class="text-xl md:text-2xl font-extrabold font-garamond">Child Support</h4>
+                    <p class="text-dark-3 text-center">There are many variations of passages of available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    <img src="./public/images/Frame.png" alt="">
+                </div>
+                <!-- card four -->
+                <div class="p-5 flex flex-col items-center justify-center gap-8">
+                    <img src="./public/images/education.png" alt="">
+                    <h4 class="text-xl md:text-2xl font-extrabold font-garamond">Education Law</h4>
+                    <p class="text-dark-3 text-center">There are many variations of passages of available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    <img src="./public/images/Frame.png" alt="">
+                </div>
+                <!-- card five -->
+                <div class="p-5 flex flex-col items-center justify-center gap-8">
+                    <img src="./public/images/divorce.png" alt="">
+                    <h4 class="text-xl md:text-2xl font-extrabold font-garamond">Divorce Law</h4>
+                    <p class="text-dark-3 text-center">There are many variations of passages of available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    <img src="./public/images/Frame.png" alt="">
+                </div>
+                <!-- card six -->
+                <div class="p-5 flex flex-col items-center justify-center gap-8">
+                    <img src="./public/images/tax.png" alt="">
+                    <h4 class="text-xl md:text-2xl font-extrabold font-garamond">Tax Law</h4>
+                    <p class="text-dark-3 text-center">There are many variations of passages of available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    <img src="./public/images/Frame.png" alt="">
+                </div>
+            </figure>
+        </section>
+        <!-- LOW SECTION END -->
+
+        <!-- CLIENTS SECTION START -->
+        <section class="px-2 py-20 grid gap-16">
+            <!-- CLIENTS TEXT CONTENT -->
+            <figure class="grid gap-5">
+                <h2 class="text-3xl md:text-4xl text-dark-2 font-extrabold font-garamond text-center">What Our Client Say</h2>
+                <p class="text-dark-3 text-center max-w-2xl mx-auto">There are many variations of passages of available, but the majority have suffered alteration in some form, by injected humour.</p>
+            </figure>
+        
+        
+            <figure class="">
+
+            <div id="default-carousel" class="relative" data-carousel="static">
+                <!-- Carousel wrapper -->
+                <div class="relative h-96 overflow-hidden rounded-lg">
+                     <!-- Item 1 -->
+                    <div class="hidden duration-700 ease-in-out bg-no-repeat bg-cover bg-center sider-one-bg" data-carousel-item>
+                        <div class="absolute inset-0 h-full w-full flex flex-col items-center justify-center gap-3 p-10">
+                            <img class="w-20 ring-2 ring-dark-6 rounded-full" src="./public/images/client-1.jpeg" alt="">
+                            <h4 class="text-white text-xl md:text-2xl font-extrabold font-garamond">Awlad Hossain</h4>
+                            <p class="text-white text-sm text-center">UIX Designer</p>
+                            <p class="text-dark-7 text-center max-w-3xl">There are many variations of passages of available, but the majority have suffered alteration in some form, by injected humour.</p>
+                        </div>
+                    </div>
+                    <!-- Item 2 -->
+                    <div class="hidden duration-700 ease-in-out bg-no-repeat bg-cover bg-center sider-two-bg" data-carousel-item>
+                        <div class="absolute inset-0 h-full w-full flex flex-col items-center justify-center gap-3 p-10">
+                            <img class="w-20 ring-2 ring-dark-6 rounded-full" src="./public/images/client-2.jpg" alt="">
+                            <h4 class="text-white text-xl md:text-2xl font-extrabold font-garamond">Nasim Ahmed</h4>
+                            <p class="text-white text-sm text-center">Web Developer</p>
+                            <p class="text-dark-7 text-center max-w-3xl">There are many variations of passages of available, but the majority have suffered alteration in some form, by injected humour.</p>
+                        </div>
+                    </div>
+                    <!-- Item 3 -->
+                    <div class="hidden duration-700 ease-in-out bg-no-repeat bg-cover bg-center sider-three-bg" data-carousel-item>
+                        <div class="absolute inset-0 h-full w-full flex flex-col items-center justify-center gap-3 p-10">
+                            <img class="w-20 ring-2 ring-dark-6 rounded-full" src="./public/images/client-3.jpg" alt="">
+                            <h4 class="text-white text-xl md:text-2xl font-extrabold font-garamond">Rasel Uddin</h4>
+                            <p class="text-white text-sm text-center">Product Manager</p>
+                            <p class="text-dark-7 text-center max-w-3xl">There are many variations of passages of available, but the majority have suffered alteration in some form, by injected humour.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slider indicators -->
+                <div class="absolute z-30 flex space-x-3 -translate-x-1/2 bottom-5 left-1/2">
+                    <button type="button" class="w-6 h-1" aria-current="false" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+                    <button type="button" class="w-6 h-1" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+                    <button type="button" class="w-6 h-1" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
+                </div>
+                <!-- Slider controls -->
+                <button type="button" class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+                    <svg aria-hidden="true" class="w-5 h-5 text-white sm:w-6 sm:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
+                </button>
+                <button type="button" class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+                    <svg aria-hidden="true" class="w-5 h-5 text-white sm:w-6 sm:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                </button>
+            </div>
+
+            </figure>
+        </section>
+        <!-- CLIENTS SECTION END -->
+
+    </main>
+    <!-- MAIN END -->
+    
+
+    <!-- FLOWBITE JS CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.2/flowbite.min.js"></script>
+
+</body>
+</html>
